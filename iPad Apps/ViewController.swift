@@ -24,15 +24,13 @@ class ViewController: UIViewController {
     }
     
     
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         square.backgroundColor = .blue
         square.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
-        UIView.animate(withDuration: 3) {
+        UIView.animate(withDuration: 300) {
             self.square.frame = CGRect(x: 300, y: 400, width: 200, height: 200)
             self.square.backgroundColor = .yellow
         }
