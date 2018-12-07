@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import SpriteKit
 
 class ViewController: UIViewController {
     
     var backGroundImage = UIImageView()
     var square = UIView()
+    var skView: SKView!
     
     
     override func viewWillAppear(_ animated: Bool) {
@@ -21,6 +23,12 @@ class ViewController: UIViewController {
         
         
         square.layer.cornerRadius = 100
+    }
+    
+    func setupGameScene() {
+        var scene = GameScene(size: CGSize(width: 1080, height: 1920))
+        scene = self.view as? SKView
+        skView.presentScene(scene)
     }
     
     
