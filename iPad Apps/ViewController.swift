@@ -13,31 +13,36 @@ class ViewController: UIViewController {
     
     var backGroundImage = UIImageView()
     var square = UIView()
-    var skView: SKView!
     
+    var skView = SKView()
     
     override func viewWillAppear(_ animated: Bool) {
-//        backGroundImage.contentMode = .scaleAspectFill
-//        backGroundImage.image = UIImage(named: "backgroundImage")
-//        backGroundImage.frame = self.view.bounds
-//
-//
-//        square.layer.cornerRadius = 100
+        backGroundImage.contentMode = .scaleAspectFill
+        backGroundImage.image = UIImage(named: "backgroundImage")
+        backGroundImage.frame = self.view.bounds
+        backGroundImage.alpha = 0.5
+
+        square.layer.cornerRadius = 100
        
     }
     
     func setupGameScene() {
+       
+       
         let scene = GameScene(size: CGSize(width: 1080, height: 1920))
-       // scene.scaleMode = .aspectFill
-        skView = self.view as? SKView
+            scene.scaleMode = .aspectFill
+            skView = self.view as! SKView
+        
         skView.presentScene(scene)
+        
     }
+    
     
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupGameScene()
+        
         
 //        square.backgroundColor = .blue
 //        square.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
@@ -46,7 +51,8 @@ class ViewController: UIViewController {
 //            self.square.backgroundColor = .yellow
 //        }
     
-//        view.addSubview(backGroundImage)
+        view.addSubview(backGroundImage)
+        setupGameScene()
 //        view.addSubview(square)
        
         

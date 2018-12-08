@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8929526121BB942400BBE7B9 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8929525F21BB942400BBE7B9 /* Rain.sks */; };
+		8929526221BB942400BBE7B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8929526021BB942400BBE7B9 /* Assets.xcassets */; };
 		896FD79D21B9409200468C53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896FD79C21B9409200468C53 /* AppDelegate.swift */; };
 		896FD79F21B9409200468C53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896FD79E21B9409200468C53 /* ViewController.swift */; };
 		896FD7A221B9409200468C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896FD7A021B9409200468C53 /* Main.storyboard */; };
 		896FD7A421B9409400468C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896FD7A321B9409400468C53 /* Assets.xcassets */; };
 		896FD7A721B9409400468C53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896FD7A521B9409400468C53 /* LaunchScreen.storyboard */; };
 		896FD7AF21BA8ADD00468C53 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896FD7AE21BA8ADD00468C53 /* GameScene.swift */; };
-		896FD7B121BA8B8600468C53 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 896FD7B021BA8B8600468C53 /* Rain.sks */; };
 		896FD7B321BA8C5E00468C53 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896FD7B221BA8C5E00468C53 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8929525F21BB942400BBE7B9 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		8929526021BB942400BBE7B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		896FD79921B9409200468C53 /* iPad Apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad Apps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		896FD79C21B9409200468C53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		896FD79E21B9409200468C53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,7 +29,6 @@
 		896FD7A621B9409400468C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		896FD7A821B9409400468C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		896FD7AE21BA8ADD00468C53 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		896FD7B021BA8B8600468C53 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
 		896FD7B221BA8C5E00468C53 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +46,8 @@
 		896FD79021B9409200468C53 = {
 			isa = PBXGroup;
 			children = (
+				8929525F21BB942400BBE7B9 /* Rain.sks */,
+				8929526021BB942400BBE7B9 /* Assets.xcassets */,
 				896FD79B21B9409200468C53 /* iPad Apps */,
 				896FD79A21B9409200468C53 /* Products */,
 			);
@@ -64,7 +68,6 @@
 				896FD79E21B9409200468C53 /* ViewController.swift */,
 				896FD7AE21BA8ADD00468C53 /* GameScene.swift */,
 				896FD7B221BA8C5E00468C53 /* Constants.swift */,
-				896FD7B021BA8B8600468C53 /* Rain.sks */,
 				896FD7A021B9409200468C53 /* Main.storyboard */,
 				896FD7A321B9409400468C53 /* Assets.xcassets */,
 				896FD7A521B9409400468C53 /* LaunchScreen.storyboard */,
@@ -132,9 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				896FD7A721B9409400468C53 /* LaunchScreen.storyboard in Resources */,
-				896FD7B121BA8B8600468C53 /* Rain.sks in Resources */,
+				8929526121BB942400BBE7B9 /* Rain.sks in Resources */,
 				896FD7A421B9409400468C53 /* Assets.xcassets in Resources */,
 				896FD7A221B9409200468C53 /* Main.storyboard in Resources */,
+				8929526221BB942400BBE7B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
