@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     var skView = SKView()
     
+    //Setting up UI elements 
     override func viewWillAppear(_ animated: Bool) {
         backGroundImage.contentMode = .scaleAspectFill
         backGroundImage.image = UIImage(named: "backgroundImage")
